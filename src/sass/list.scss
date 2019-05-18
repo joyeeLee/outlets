@@ -1,0 +1,312 @@
+.container {
+  height: auto;
+  //   background: greenyellow;
+  .sort_way {
+    height: 40px;
+    background: #f9f9f7;
+    border: 1px solid #e6e6e6;
+    dl {
+      margin-left: 0px;
+      float: left;
+      overflow: hidden;
+      dt {
+        float: left;
+        margin: 9px 10px 0px 10px;
+        font-size: 12px;
+        font-weight: bold;
+      }
+      .goodsdesc {
+        overflow: hidden;
+        float: left;
+        line-height: 25px;
+        margin-top: 6px;
+        width: 55px;
+        height: 25px;
+        // display: block;
+        border: 1px solid #ddd;
+        color: #666;
+        background: #fff;
+        text-align: center;
+        font-size: 12px;
+        cursor: pointer;
+      }
+      .sortactive {
+        border: 1px solid #fb5053 !important;
+        background: #fb5053 !important;
+        color: white !important;
+      }
+      .goods_sele {
+        overflow: hidden;
+        float: left;
+        line-height: 25px;
+        margin-top: 6px;
+        a {
+          float: left;
+          padding-left: 18px;
+          line-height: 14px;
+          height: 14px;
+          background: url(../images/sear-lei.png) no-repeat scroll -70px -13px transparent;
+          color: #1e55ab;
+          margin-top: 6px;
+          margin-left: 10px;
+          font-size: 13px;
+        }
+        .other {
+          background: url(../images/sear-lei.png) no-repeat scroll -70px 1px transparent;
+        }
+      }
+    }
+    .page1 {
+      float: right;
+      margin-right: 10px;
+      font-size: 12px;
+      ul {
+        li {
+          float: left;
+          margin-top: 8px;
+          margin-right: 4px;
+          .pro_quan {
+            color: red;
+          }
+          .no_page {
+            color: red;
+          }
+        }
+        .prev_page {
+          display: block;
+          width: 70px;
+          height: 25px;
+          background: #fff;
+          line-height: 25px;
+          color: #cdcdcd;
+          position: relative;
+          text-align: center;
+          i {
+            display: block;
+            width: 5px;
+            height: 9px;
+            background: url(../images/sear-lei.png) no-repeat;
+            background-position: 0px 0px;
+            position: absolute;
+            top: 8px;
+            left: 4px;
+          }
+        }
+        .elli {
+          float: left;
+          margin-top: 8px;
+          margin-right: 4px;
+        }
+      }
+      .next_page {
+        display: block;
+        width: 70px;
+        height: 25px;
+        background: #fff;
+        line-height: 25px;
+        color: #cdcdcd;
+        position: relative;
+        text-align: center;
+        a {
+          display: block;
+          width: 70px;
+          height: 25px;
+          border: 1px solid #ddd;
+          i {
+            display: block;
+            width: 5px;
+            height: 9px;
+            background: url(../images/sear-lei.png) no-repeat;
+            background-position: -21px 0px;
+            position: absolute;
+            top: 9px;
+            right: 6px;
+          }
+        }
+      }
+    }
+  }
+  .pro {
+    width: 100%;
+    ul {
+      width: 85%;
+      margin: 0 auto;
+      li {
+        float: left;
+        width: 240px;
+        height: 390px;
+        border: 1px solid #fff;
+        overflow: hidden;
+        margin-left: 2px;
+        margin-top: 20px;
+        border-bottom: 1px dashed #ddd;
+        position: relative;
+        background: white;
+        &:hover {
+          box-shadow: 3px 3px 10px 2px #acacac;
+        }
+        .pro_sketch {
+          width: 220px;
+          height: 220px;
+          overflow: hidden;
+          margin-left: 10px;
+
+          a {
+            display: block;
+            img {
+              width: 220px;
+              height: 220px;
+            }
+          }
+        }
+        .small_img {
+          overflow: hidden;
+          margin-top: 20px;
+          margin-left: 10px;
+          dl {
+            dd {
+              float: left;
+              margin-left: 8px;
+              border: 1px solid #ddd;
+              img {
+                width: 35px;
+                height: 35px;
+              }
+            }
+          }
+        }
+        .benefit_spot {
+          padding: 0px 4px;
+          margin-top: 25px;
+          overflow: hidden;
+          height: 25px;
+          .sale_icon {
+            //   background: url(../images/) no-repeat;
+            height: 23px;
+            display: block;
+            //   padding-left: 28px;
+            //   *padding-left: 28px;
+            //   margin-left: 5px;
+            //   line-height: 23px;
+            //   font-weight: bold;
+            .now_pri {
+              color: #e43b3b;
+              font-size: 16px;
+              float: left;
+              .pri_inse1 {
+                margin-left: -7px;
+              }
+            }
+            .ori_pri {
+              font-size: 14px;
+              color: #999;
+              margin-left: 5px;
+              float: left;
+              line-height: 23px;
+              text-decoration: line-through;
+              .pri_inse2 {
+                margin-left: -5px;
+              }
+            }
+          }
+        }
+
+        .pro_tit {
+          font-size: 14px;
+          color: #999;
+          margin-left: 5px;
+          cursor: pointer;
+          &:hover {
+            color: #e43b3b;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+.page_div {
+  float: right;
+  margin-right: 40px;
+  a {
+    font-size: 12px;
+    border: 1px solid #ddd;
+    float: left;
+    margin-top: 8px;
+    margin-right: 4px;
+    display: block;
+    cursor: pointer;
+  }
+  #prePage,
+  #firstPage,
+  #nextPage,
+  #lastPage {
+    width: 70px;
+    height: 25px;
+    background: #fff;
+    line-height: 25px;
+    color: #cdcdcd;
+    position: relative;
+    text-align: center;
+  }
+  #nextPage {
+    color: black;
+  }
+  #prePage::after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 9px;
+    background: url(../images/sear-lei.png) no-repeat;
+    background-position: 0px 0px;
+    position: absolute;
+    top: 8px;
+    left: 4px;
+  }
+  .prePage1::after {
+    background-position: -14px 0px !important;
+  }
+  // #nextPage {
+  //   color: black;
+  // }
+  #nextPage::after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 9px;
+    background: url(../images/sear-lei.png) no-repeat;
+    background-position: -21px 0px;
+    position: absolute;
+    top: 9px;
+    right: 6px;
+  }
+  a:nth-child(3),
+  a:nth-child(4),
+  a:nth-child(5),
+  a:nth-child(6),
+  a:nth-child(7) {
+    display: block;
+    width: 30px;
+    height: 25px;
+    border: 1px solid #ccc;
+    color: #666;
+    background: #fff;
+
+    line-height: 27px;
+    text-align: center;
+  }
+
+  .totalPages,
+  .totalSize {
+    font-size: 12px;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    margin-top: 8px;
+  }
+  .current {
+    border: 1px solid #e4393c !important;
+    color: #e4393c !important;
+    background: #fdf3f3 !important;
+  }
+}

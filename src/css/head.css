@@ -1,0 +1,55 @@
+.head {
+  height: 120px;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+.head h1 {
+  height: 100%;
+  background: url(../images/logo.png) no-repeat;
+  text-indent: -999px;
+  margin-top: 20px;
+  width: 192px;
+}
+.head .aff {
+  height: 112px;
+}
+.head .aff li {
+  width: 240px;
+  height: 100%;
+  margin-top: 5px;
+  position: relative;
+  float: left;
+}
+.head .aff li::before {
+  content: "";
+  display: inline-block;
+  width: 62px;
+  height: 62px;
+  background: url(../images/foot-sprite.png) no-repeat;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+.head .aff li:nth-child(1)::before {
+  background-position: -270px -105px;
+}
+.head .aff li:nth-child(2)::before {
+  background-position: -450px -105px;
+}
+.head .aff li:nth-child(3)::before {
+  background-position: -540px -105px;
+}
+.head .aff li .desc {
+  position: absolute;
+  top: 20px;
+  left: 85px;
+}
+.head .aff li .desc .btit {
+  color: #d61518;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+}
+.head .aff li .desc .stit {
+  font-size: 12px;
+}

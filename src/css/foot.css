@@ -1,0 +1,190 @@
+.foot {
+  border-top: 1px solid #666666;
+  width: 100%;
+}
+.foot .foot_cont .foot_icon {
+  height: 112px;
+  border-bottom: 1px solid #ededed;
+}
+.foot .foot_cont .foot_icon li {
+  width: 240px;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+.foot .foot_cont .foot_icon li .foot_icon1 {
+  width: 62px;
+  height: 62px;
+  background: url(../images/foot-sprite.png) no-repeat;
+  float: left;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+.foot .foot_cont .foot_icon li:nth-child(1) .foot_icon1 {
+  background-position: -271px -105px;
+}
+.foot .foot_cont .foot_icon li:nth-child(2) .foot_icon1 {
+  background-position: -360px -105px;
+}
+.foot .foot_cont .foot_icon li:nth-child(3) .foot_icon1 {
+  background-position: -451px -105px;
+}
+.foot .foot_cont .foot_icon li:nth-child(4) .foot_icon1 {
+  background-position: -541px -105px;
+}
+.foot .foot_cont .foot_icon li:nth-child(5) .foot_icon1 {
+  background-position: -625px -105px;
+}
+.foot .foot_cont .foot_icon li .foot-desc {
+  position: absolute;
+  top: 20px;
+  left: 85px;
+}
+.foot .foot_cont .foot_icon li .foot-desc .btit {
+  color: #c81417;
+  font-size: 18px;
+  line-height: 40px;
+}
+.foot .foot_cont .foot_icon li .foot-desc .stit {
+  font-size: 12px;
+  color: #333;
+}
+.foot .foot_cont .foot_help {
+  width: 100%;
+  height: 200px;
+  margin-top: 30px;
+  border-bottom: 1px solid #ededed;
+}
+.foot .foot_cont .foot_help .foot_contact {
+  width: 180px;
+  margin-right: 50px;
+}
+.foot .foot_cont .foot_help .foot_contact .weibo {
+  width: 50px;
+}
+.foot .foot_cont .foot_help .foot_contact .weibo .weiboi {
+  width: 42px;
+  height: 43px;
+  background: url(../images/foot-sprite.png) no-repeat;
+  background-position: 1px -105px;
+}
+.foot .foot_cont .foot_help .foot_contact .wechat {
+  width: 50px;
+}
+.foot .foot_cont .foot_help .foot_contact .wechat .wechati {
+  background: url(../images/foot-sprite.png) no-repeat;
+  background-position: -60px -105px;
+  width: 42px;
+  height: 42px;
+}
+.foot .foot_cont .foot_help .foot_contact .weibo span,
+.foot .foot_cont .foot_help .foot_contact .wechat span {
+  color: #666;
+  font-size: 12px;
+  /* text-align: center; */
+  margin-left: 10px;
+  display: block;
+  margin-top: 5px;
+  width: 100%;
+}
+.foot .foot_cont .foot_help .foot_contact .hotline {
+  width: 200px;
+  height: 80px;
+  position: relative;
+}
+.foot .foot_cont .foot_help .foot_contact .hotline .hotlinei {
+  width: 70px;
+  height: 26px;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  color: #666;
+  font-size: 12px;
+}
+.foot .foot_cont .foot_help .foot_contact .social_tel {
+  font-size: 12px;
+  width: 130px;
+  position: absolute;
+  right: 0;
+  top: 13px;
+  color: #666;
+}
+.foot .foot_cont .foot_help .foot_contact .week {
+  font-size: 12px;
+  color: #666666;
+  float: left;
+}
+.foot .foot_cont .foot_help .help_list,
+.foot .foot_cont .foot_help .payway,
+.foot .foot_cont .foot_help .sendway,
+.foot .foot_cont .foot_help .service {
+  height: 180px;
+  float: left;
+  border-left: 1px solid #dedede;
+  padding-left: 55px;
+  font-size: 14px;
+  color: #333;
+  margin-left: 50px;
+}
+.foot .foot_cont .foot_help .service {
+  margin-right: 50px;
+}
+.foot .foot_cont .foot_help dl dt {
+  height: 35px;
+  line-height: 35px;
+}
+.foot .foot_cont .foot_help dl dd a {
+  color: #666;
+  font-size: 12px;
+}
+.foot .foot_cont .foot_help dl dd a:hover {
+  color: #c81417;
+}
+.foot .foot_cont .foot_help .scan {
+  border-left: 1px solid #dedede;
+  float: left;
+  height: 180px;
+  padding-left: 10px;
+}
+.foot .foot_cont .outlets_link {
+  width: 540px;
+  margin: 25px auto 0;
+}
+.foot .foot_cont .outlets_link .outlets_inf {
+  margin-left: 25px;
+}
+.foot .foot_cont .outlets_link .outlets_inf li {
+  float: left;
+  margin-left: 10px;
+  border-right: 1px solid #333;
+  height: 12px;
+  line-height: 12px;
+  /* text-align: center; */
+  padding-right: 5px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+}
+.foot .foot_cont .outlets_link .outlets_inf li a {
+  color: #333333;
+  font-size: 12px;
+  vertical-align: top;
+}
+.foot .foot_cont .outlets_link .outlets_inf li a:hover {
+  color: #c81417;
+}
+.foot .foot_cont .outlets_link .copyrighti {
+  font-size: 12px;
+  color: #333;
+  margin: 0 auto;
+  margin-top: 15px;
+  text-align: center;
+}
+.foot .foot_cont .outlets_link .ind_comm {
+  width: 687px;
+  height: 32px;
+  background: url(../images/foot-sprite.png) no-repeat;
+  background-position: -393px -28px;
+  margin-left: -30px;
+}

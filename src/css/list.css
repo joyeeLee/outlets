@@ -1,0 +1,296 @@
+.container {
+  height: auto;
+}
+.container .sort_way {
+  height: 40px;
+  background: #f9f9f7;
+  border: 1px solid #e6e6e6;
+}
+.container .sort_way dl {
+  margin-left: 0px;
+  float: left;
+  overflow: hidden;
+}
+.container .sort_way dl dt {
+  float: left;
+  margin: 9px 10px 0px 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.container .sort_way dl .goodsdesc {
+  overflow: hidden;
+  float: left;
+  line-height: 25px;
+  margin-top: 6px;
+  width: 55px;
+  height: 25px;
+  border: 1px solid #ddd;
+  color: #666;
+  background: #fff;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+.container .sort_way dl .sortactive {
+  border: 1px solid #fb5053 !important;
+  background: #fb5053 !important;
+  color: white !important;
+}
+.container .sort_way dl .goods_sele {
+  overflow: hidden;
+  float: left;
+  line-height: 25px;
+  margin-top: 6px;
+}
+.container .sort_way dl .goods_sele a {
+  float: left;
+  padding-left: 18px;
+  line-height: 14px;
+  height: 14px;
+  background: url(../images/sear-lei.png) no-repeat scroll -70px -13px transparent;
+  color: #1e55ab;
+  margin-top: 6px;
+  margin-left: 10px;
+  font-size: 13px;
+}
+.container .sort_way dl .goods_sele .other {
+  background: url(../images/sear-lei.png) no-repeat scroll -70px 1px transparent;
+}
+.container .sort_way .page1 {
+  float: right;
+  margin-right: 10px;
+  font-size: 12px;
+}
+.container .sort_way .page1 ul li {
+  float: left;
+  margin-top: 8px;
+  margin-right: 4px;
+}
+.container .sort_way .page1 ul li .pro_quan {
+  color: red;
+}
+.container .sort_way .page1 ul li .no_page {
+  color: red;
+}
+.container .sort_way .page1 ul .prev_page {
+  display: block;
+  width: 70px;
+  height: 25px;
+  background: #fff;
+  line-height: 25px;
+  color: #cdcdcd;
+  position: relative;
+  text-align: center;
+}
+.container .sort_way .page1 ul .prev_page i {
+  display: block;
+  width: 5px;
+  height: 9px;
+  background: url(../images/sear-lei.png) no-repeat;
+  background-position: 0px 0px;
+  position: absolute;
+  top: 8px;
+  left: 4px;
+}
+.container .sort_way .page1 ul .elli {
+  float: left;
+  margin-top: 8px;
+  margin-right: 4px;
+}
+.container .sort_way .page1 .next_page {
+  display: block;
+  width: 70px;
+  height: 25px;
+  background: #fff;
+  line-height: 25px;
+  color: #cdcdcd;
+  position: relative;
+  text-align: center;
+}
+.container .sort_way .page1 .next_page a {
+  display: block;
+  width: 70px;
+  height: 25px;
+  border: 1px solid #ddd;
+}
+.container .sort_way .page1 .next_page a i {
+  display: block;
+  width: 5px;
+  height: 9px;
+  background: url(../images/sear-lei.png) no-repeat;
+  background-position: -21px 0px;
+  position: absolute;
+  top: 9px;
+  right: 6px;
+}
+.container .pro {
+  width: 100%;
+}
+.container .pro ul {
+  width: 85%;
+  margin: 0 auto;
+}
+.container .pro ul li {
+  float: left;
+  width: 240px;
+  height: 390px;
+  border: 1px solid #fff;
+  overflow: hidden;
+  margin-left: 2px;
+  margin-top: 20px;
+  border-bottom: 1px dashed #ddd;
+  position: relative;
+  background: white;
+}
+.container .pro ul li:hover {
+  box-shadow: 3px 3px 10px 2px #acacac;
+}
+.container .pro ul li .pro_sketch {
+  width: 220px;
+  height: 220px;
+  overflow: hidden;
+  margin-left: 10px;
+}
+.container .pro ul li .pro_sketch a {
+  display: block;
+}
+.container .pro ul li .pro_sketch a img {
+  width: 220px;
+  height: 220px;
+}
+.container .pro ul li .small_img {
+  overflow: hidden;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.container .pro ul li .small_img dl dd {
+  float: left;
+  margin-left: 8px;
+  border: 1px solid #ddd;
+}
+.container .pro ul li .small_img dl dd img {
+  width: 35px;
+  height: 35px;
+}
+.container .pro ul li .benefit_spot {
+  padding: 0px 4px;
+  margin-top: 25px;
+  overflow: hidden;
+  height: 25px;
+}
+.container .pro ul li .benefit_spot .sale_icon {
+  height: 23px;
+  display: block;
+}
+.container .pro ul li .benefit_spot .sale_icon .now_pri {
+  color: #e43b3b;
+  font-size: 16px;
+  float: left;
+}
+.container .pro ul li .benefit_spot .sale_icon .now_pri .pri_inse1 {
+  margin-left: -7px;
+}
+.container .pro ul li .benefit_spot .sale_icon .ori_pri {
+  font-size: 14px;
+  color: #999;
+  margin-left: 5px;
+  float: left;
+  line-height: 23px;
+  text-decoration: line-through;
+}
+.container .pro ul li .benefit_spot .sale_icon .ori_pri .pri_inse2 {
+  margin-left: -5px;
+}
+.container .pro ul li .pro_tit {
+  font-size: 14px;
+  color: #999;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.container .pro ul li .pro_tit:hover {
+  color: #e43b3b;
+  text-decoration: underline;
+}
+
+.page_div {
+  float: right;
+  margin-right: 40px;
+}
+.page_div a {
+  font-size: 12px;
+  border: 1px solid #ddd;
+  float: left;
+  margin-top: 8px;
+  margin-right: 4px;
+  display: block;
+  cursor: pointer;
+}
+.page_div #prePage,
+.page_div #firstPage,
+.page_div #nextPage,
+.page_div #lastPage {
+  width: 70px;
+  height: 25px;
+  background: #fff;
+  line-height: 25px;
+  color: #cdcdcd;
+  position: relative;
+  text-align: center;
+}
+.page_div #nextPage {
+  color: black;
+}
+.page_div #prePage::after {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 9px;
+  background: url(../images/sear-lei.png) no-repeat;
+  background-position: 0px 0px;
+  position: absolute;
+  top: 8px;
+  left: 4px;
+}
+.page_div .prePage1::after {
+  background-position: -14px 0px !important;
+}
+.page_div #nextPage::after {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 9px;
+  background: url(../images/sear-lei.png) no-repeat;
+  background-position: -21px 0px;
+  position: absolute;
+  top: 9px;
+  right: 6px;
+}
+.page_div a:nth-child(3),
+.page_div a:nth-child(4),
+.page_div a:nth-child(5),
+.page_div a:nth-child(6),
+.page_div a:nth-child(7) {
+  display: block;
+  width: 30px;
+  height: 25px;
+  border: 1px solid #ccc;
+  color: #666;
+  background: #fff;
+  line-height: 27px;
+  text-align: center;
+}
+.page_div .totalPages,
+.page_div .totalSize {
+  font-size: 12px;
+  display: inline-block;
+  height: 25px;
+  line-height: 25px;
+  margin-top: 8px;
+}
+.page_div .current {
+  border: 1px solid #e4393c !important;
+  color: #e4393c !important;
+  background: #fdf3f3 !important;
+}
+
+/*# sourceMappingURL=list.css.map */

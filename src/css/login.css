@@ -1,0 +1,221 @@
+body,
+html {
+  width: 100%;
+}
+
+#outlet_login {
+  width: 100%;
+}
+
+#outlet_login .container {
+  width: 100%;
+}
+#outlet_login .container .cont {
+  height: 557px;
+  position: relative;
+}
+#outlet_login .container .cont .bigimg a {
+  display: block;
+  width: 673px;
+  height: 558px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#outlet_login .container .cont .bigimg a img {
+  width: 100%;
+  height: 100%;
+}
+#outlet_login .container .login_panel {
+  border: 1px solid #f0f0ff;
+  width: 340px;
+  height: auto;
+  background: #fff;
+  border: 1px solid #d0d0d0;
+  margin-top: 75px;
+  position: relative;
+}
+#outlet_login .container .login_panel .reg_rn {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  font-size: 13px;
+  z-index: 1;
+}
+#outlet_login .container .login_panel .reg_rn a {
+  color: #ff7800;
+}
+#outlet_login .container .login_panel .divLoginQR {
+  background: url(../images/right-myCenter.png) no-repeat;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+#outlet_login .container .login_panel .nore_login {
+  margin: 0 auto;
+}
+#outlet_login .container .login_panel .nore_login > p {
+  text-align: center;
+  color: #a7a7a7;
+  margin-top: 20px;
+  font-size: 12px;
+}
+#outlet_login .container .login_panel .nore_login .log_way {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+#outlet_login .container .login_panel .nore_login .log_way li {
+  width: 50%;
+  float: left;
+}
+#outlet_login .container .login_panel .nore_login .log_way li i {
+  display: block;
+  background-image: url(../images/login-box.png);
+  width: 30px;
+  height: 30px;
+  margin: auto;
+}
+#outlet_login .container .login_panel .nore_login .log_way li .QQ {
+  background-position: 0 -180px;
+}
+#outlet_login .container .login_panel .nore_login .log_way li .wechat {
+  background-position: 0 -225px;
+}
+#outlet_login .container .login_panel .nore_login .log_way li p {
+  font-size: 12px;
+  color: #a7a7a7;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+#outlet_login .container .login_panel .divPC .divLoginQR {
+  background-position: -75px -75px;
+}
+#outlet_login .container .login_panel .divPC .tablist {
+  width: 240px;
+  margin: auto;
+  display: block;
+}
+#outlet_login .container .login_panel .divPC .tablist input {
+  width: 240px;
+  border-radius: 10px;
+  outline: 0;
+  line-height: 40px;
+  height: 40px;
+  border: 1px solid #d0d0d0;
+  padding-left: 40px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+#outlet_login .container .login_panel .divPC .tablist .userphone {
+  margin-top: 50px;
+}
+#outlet_login .container .login_panel .divPC .tablist .userphone .userifo {
+  background-image: url(../images/login-box.png);
+  background-repeat: no-repeat;
+  background-position: 0 -90px;
+}
+#outlet_login .container .login_panel .divPC .tablist .errinfo {
+  line-height: 30px;
+  height: 30px;
+  color: red;
+  width: 95%;
+  margin: auto;
+  font-size: 12px;
+}
+#outlet_login .container .login_panel .divPC .tablist .uesrpwd_area .userpwd2 {
+  background-image: url(../images/login-box.png);
+  background-repeat: no-repeat;
+  background-position: 0 -135px;
+}
+#outlet_login .container .login_panel .divPC .tablist .othercom .rempwd {
+  display: inline-block;
+  width: 45%;
+}
+#outlet_login .container .login_panel .divPC .tablist .othercom .rempwd input {
+  width: 14px;
+  height: 14px;
+}
+#outlet_login .container .login_panel .divPC .tablist .othercom .rempwd .repwd {
+  color: #a7a7a7;
+  font-size: 12px;
+  margin-left: 10px;
+}
+#outlet_login .container .login_panel .divPC .tablist .othercom .forgetpwdcon {
+  display: inline-block;
+  text-align: right;
+  height: 40px;
+  line-height: 40px;
+  font-size: 12px;
+  color: #a7a7a7;
+  width: 50%;
+}
+#outlet_login .container .login_panel .divPC .tablist .loginbtn {
+  margin-top: 20px;
+}
+#outlet_login .container .login_panel .divPC .tablist .loginbtn .loginbtn1 {
+  width: 100%;
+  color: white;
+  background: #c81417;
+  padding: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#outlet_login .container .login_panel .divQR {
+  width: 100%;
+  display: none;
+}
+#outlet_login .container .login_panel .divQR .divLoginQR {
+  background-position: 0px -75px;
+}
+#outlet_login .container .login_panel .divQR .QR_cont {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+#outlet_login .container .login_panel .divQR .QR_cont img {
+  width: 50%;
+  height: 50%;
+}
+#outlet_login .container .login_panel .divQR .QR_cont .QR-txt {
+  width: 100%;
+  margin: 20px auto 0;
+  position: relative;
+  height: 36px;
+}
+#outlet_login .container .login_panel .divQR .QR_cont .QR-txt i {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  background: url(../images/right-myCenter.png) no-repeat;
+  background-position: -75px 0;
+  position: absolute;
+  left: 80px;
+  top: 0;
+}
+#outlet_login .container .login_panel .divQR .QR_cont .QR-txt .adv {
+  font-size: 12px;
+  text-align: left;
+  position: absolute;
+  left: 130px;
+  top: 0;
+}
+#outlet_login .container .errortip {
+  width: 140px;
+  height: 90px;
+  border-radius: 10px;
+  background: rgba(8, 0, 39, 0.5);
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  color: white;
+  line-height: 90px;
+  display: none;
+}
+
+/*# sourceMappingURL=login.css.map */

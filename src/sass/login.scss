@@ -1,0 +1,231 @@
+@charset "utf-8";
+body,
+html {
+  width: 100%;
+}
+#outlet_login {
+  width: 100%;
+}
+#outlet_login .container {
+  width: 100%;
+  .cont {
+    height: 557px;
+    //  background-color: black;
+    position: relative;
+    // padding-top: 0;
+    .bigimg {
+      a {
+        display: block;
+        width: 673px;
+        height: 558px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+  .login_panel {
+    border: 1px solid #f0f0ff;
+    width: 340px;
+    // height: 377px;
+    height: auto;
+    background: #fff;
+    border: 1px solid #d0d0d0;
+    margin-top: 75px;
+    position: relative;
+    .reg_rn {
+      position: absolute;
+      top: 15px;
+      left: 20px;
+      font-size: 13px;
+      z-index: 1;
+      a {
+        color: #ff7800;
+      }
+    }
+    .divLoginQR {
+      background: url(../images/right-myCenter.png) no-repeat;
+      width: 60px;
+      height: 60px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      cursor: pointer;
+    }
+    .nore_login {
+      margin: 0 auto;
+      > p {
+        text-align: center;
+        color: #a7a7a7;
+        margin-top: 20px;
+        font-size: 12px;
+      }
+      .log_way {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 20px;
+        li {
+          width: 50%;
+          float: left;
+          i {
+            display: block;
+            background-image: url(../images/login-box.png);
+            width: 30px;
+            height: 30px;
+            margin: auto;
+          }
+          .QQ {
+            background-position: 0 -180px;
+          }
+          .wechat {
+            background-position: 0 -225px;
+          }
+          p {
+            font-size: 12px;
+            color: #a7a7a7;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 5px;
+          }
+        }
+      }
+    }
+    .divPC {
+      .divLoginQR {
+        background-position: -75px -75px;
+      }
+      .tablist {
+        width: 240px;
+        margin: auto;
+        display: block;
+        input {
+          width: 240px;
+          border-radius: 10px;
+          outline: 0;
+          line-height: 40px;
+          height: 40px;
+          border: 1px solid #d0d0d0;
+          padding-left: 40px;
+          box-sizing: border-box;
+          font-size: 12px;
+        }
+        .userphone {
+          margin-top: 50px;
+          .userifo {
+            // background: url(../images/login-box.png) no-repeat;
+            background-image: url(../images/login-box.png);
+            background-repeat: no-repeat;
+            background-position: 0 -90px;
+          }
+        }
+        .errinfo {
+          line-height: 30px;
+          height: 30px;
+          color: red;
+          width: 95%;
+          margin: auto;
+          font-size: 12px;
+        }
+        .uesrpwd_area {
+          .userpwd2 {
+            background-image: url(../images/login-box.png);
+            background-repeat: no-repeat;
+            background-position: 0 -135px;
+          }
+        }
+        .othercom {
+          .rempwd {
+            display: inline-block;
+            width: 45%;
+            input {
+              width: 14px;
+              height: 14px;
+            }
+            .repwd {
+              color: #a7a7a7;
+              font-size: 12px;
+              margin-left: 10px;
+            }
+          }
+          .forgetpwdcon {
+            display: inline-block;
+            text-align: right;
+            height: 40px;
+            line-height: 40px;
+            font-size: 12px;
+            color: #a7a7a7;
+            width: 50%;
+          }
+        }
+        .loginbtn {
+          margin-top: 20px;
+          .loginbtn1 {
+            width: 100%;
+            color: white;
+            background: #c81417;
+            padding: 0;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .divQR {
+      width: 100%;
+      display: none;
+      .divLoginQR {
+        background-position: 0px -75px;
+      }
+      .QR_cont {
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 50px;
+        img {
+          width: 50%;
+          height: 50%;
+        }
+        .QR-txt {
+          width: 100%;
+          // margin-top: 20px;
+          margin: 20px auto 0;
+          position: relative;
+          height: 36px;
+          i {
+            display: inline-block;
+            width: 34px;
+            height: 34px;
+            background: url(../images/right-myCenter.png) no-repeat;
+            background-position: -75px 0;
+            position: absolute;
+            left: 80px;
+            top: 0;
+          }
+          .adv {
+            font-size: 12px;
+            text-align: left;
+            position: absolute;
+            left: 130px;
+            top: 0;
+          }
+        }
+      }
+    }
+  }
+  .errortip {
+    width: 140px;
+    height: 90px;
+    border-radius: 10px;
+    background: rgba($color: #080027, $alpha: 0.5);
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    color: white;
+    line-height: 90px;
+    display: none;
+  }
+}

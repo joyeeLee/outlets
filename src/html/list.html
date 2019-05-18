@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/headmain.css">
+    <link rel="stylesheet" href="../css/sidebar.css">
+    <link rel="stylesheet" href="../css/list.css">
+    <link rel="stylesheet" href="../css/foot.css">
+    <style>
+
+    </style>
+    <title>奥莱购</title>
+</head>
+
+<body>
+    <div class="outlets_list">
+        <div class="head1"></div>
+        <div class="container w_1200">
+            <div class="sort_way">
+                <dl>
+                    <dt>排序</dt>
+                    <dd class="goodsdesc sortactive">综合排序</dd>
+                    <dd class="goodsdesc">销量</dd>
+                    <dd class="goodsdesc">价格</dd>
+                    <!-- <dd class="goodsdesc">折扣</dd>
+                    <dd class="goodsdesc">上架时间</dd> -->
+                    <!-- <dd class="goods_sele">
+                        <a href="#">仅显示有货</a>
+                    </dd>
+                    <dd class="goods_sele">
+                        <a href="#" class="other">自营</a>
+                    </dd>
+                    <dd class="goods_sele">
+                        <a href="#" class="other">海外购</a>
+                    </dd>
+                    <dd class="goods_sele">
+                        <a href="#" class="other">海外直邮</a>
+                    </dd>
+                    <dd class="goods_sele">
+                        <a href="#" class="other">优惠</a>
+                    </dd> -->
+                </dl>
+                <!-- <div class="page1">
+                    <ul>
+                        <li>
+                            <i>共</i>
+                            <span class="pro_quan">109</span>
+                            <i>件商品</i>
+                            <span class="no_page">1</span>
+                            <i>/</i>
+                            <span class="total_page">3</span>
+                        </li>
+                        <li class="prev_page">
+                            <i></i>
+                            上一页
+                        </li>
+                        <li class="elli">...</li>
+                        <li class="next_page">
+                            <a href="">下一页
+                                <i></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div> -->
+
+            </div>
+            <div class="pro">
+                <ul class="clearfix pro_list">
+                    <!-- <li>
+                        <div class="pro_sketch">
+                            <a href=""><img src="../images/img1.JPG" alt=""></a>
+                        </div>
+                        <div class="small_img">
+                            <dl class="clearfix">
+                                <dd><img src="../images/img11.JPG" alt=""></dd>
+                                <dd><img src="../images/img12.JPG" alt=""></dd>
+                                <dd><img src="../images/img13.JPG" alt=""></dd>
+                            </dl>
+                        </div>
+                        <div class="benefit_spot">
+                            <div class="sale_icon">
+                                <span class="now_pri">￥
+                                    <span class="pri_inse1">52.5</span> </span>
+                                <span class="ori_pri">￥
+                                    <span class="pri_inse2">569.00</span> </span>
+                            </div>
+                        </div>
+                        <div class="pro_tit">
+                            <span class="pro_tit_cont">[支持深圳自提] CRZ 女士春夏新款休闲短裤</span>
+                        </div>
+                    </li> -->
+
+                </ul>
+            </div>
+        </div>
+        <div class="paging">
+            <div class="paging_cont clearfix">
+                <div id="page" class="page_div"></div>
+                <!-- <ul class="clearfix" id="pagebox">
+                    <li class="f_prevpage">
+                        <i></i>
+                        上一页
+                    </li>
+                    <li class="no1 no2 active1">
+
+                    </li>
+                    <li class="no2">
+
+                    </li>
+                    <li class="no2">
+
+                    </li>
+                    <li class="no2">
+
+                    </li>
+                    <li class="no2">
+
+                    </li>
+                    <li class="no2">
+
+                    </li>
+                    <li class="f_nextpage f_next">
+                        下一页
+                        <i></i>
+                    </li>
+                    <li class="page_tol">
+                        共 <span class="ipage">19</span>页
+                    </li>
+                    <li class="p_skip">
+                        到第
+                        <input type="text" class="page_input" value="1">
+                        页
+                    </li>
+                    <li>
+                        <input type="button" value="确定" class="surebtn">
+                    </li>
+                </ul> -->
+            </div>
+        </div>
+        <div class="foot">
+
+        </div>
+        <div class="sideabr"></div>
+    </div>
+</body>
+<script src="../lib/jquery-1.10.1.min.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/head_side.js"></script>
+<script src="../lib/paging.js"></script>
+<script src="../js/list.js"></script>
+<script>
+    $(function () {
+        $('.head1').load('headmain.html', function () {
+            indexp.init();
+        });
+        $('.sideabr').load('sidebar.html', function () {
+            indexp.init();
+        });
+        $('.foot').load('foot.html');
+    });
+</script>
+
+
+</html>

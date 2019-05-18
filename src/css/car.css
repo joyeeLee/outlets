@@ -1,0 +1,332 @@
+#content {
+  width: 1200px;
+  margin: 0 auto;
+}
+.cart_tit {
+  width: 100%;
+  height: 70px;
+  margin-top: 10px;
+}
+.cart_tit p {
+  width: 100px;
+  height: 30px;
+  border-bottom: 2px solid #e02d2d;
+}
+.pro_list_txt {
+  margin-left: 4px;
+}
+#content a {
+  color: rgb(56, 56, 56);
+  text-decoration: none;
+}
+#content .car_i {
+  width: 100%;
+  height: 80px;
+  margin: 40px 0;
+}
+#content .car_i img:nth-child(1) {
+  width: 100px;
+  height: 50px;
+  float: left;
+}
+#content .car_i img:nth-child(2) {
+  width: 650px;
+  height: 40px;
+  float: right;
+}
+#content .state {
+  width: 100%;
+  height: 70px;
+}
+#content .state h3 {
+  font-size: 13px;
+  width: 100%;
+  height: 30px;
+  text-align: right;
+}
+#content .state h3 .all_price {
+  color: red;
+}
+#content .state h3 .wind {
+  display: inline-block;
+  width: 50px;
+  font-size: 13px;
+  color: white;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 4px;
+  background-color: orange;
+}
+#content .select_nav {
+  width: 100%;
+  height: 40px;
+  background: #f5f5f5;
+  border-top: 1px solid #bdbdbd;
+}
+#content .select_nav span {
+  display: inline-block;
+  height: 100%;
+  width: 140px;
+  text-align: center;
+  line-height: 40px;
+}
+#content .select_nav span:nth-child(1) {
+  width: 450px;
+}
+#content .car_goods {
+  width: 100%;
+  font-size: 14px;
+}
+#content .car_goods .stort {
+  line-height: 50px;
+}
+#content .car_goods .stort a:hover {
+  color: #e02d2d;
+  /* text-decoration: underline; */
+}
+#content .car_goods .stort span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+#content .car_goods ul {
+  width: 100%;
+  overflow: hidden;
+}
+#content .car_goods ul li {
+  width: 100%;
+  height: 120px;
+  border: 1px solid gainsboro;
+  padding: 10px;
+  box-sizing: border-box;
+  position: relative;
+}
+#content .car_goods ul li .g_price {
+  position: absolute;
+  top: 36px;
+  left: 494px;
+}
+/* #content .car_goods ul li .g_price p:nth-child(1) {
+  width: 100%;
+  color: gainsboro;
+  text-decoration: line-through;
+} */
+#content .car_goods ul li .g_price p span {
+  color: black;
+  width: 100%;
+}
+#content .car_goods ul li .up {
+  position: absolute;
+  top: 36px;
+  left: 631px;
+
+  /* margin-right: -5px; */
+}
+#content .car_goods ul li .up input:nth-child(1) {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 10px;
+  cursor: pointer;
+}
+#content .car_goods ul li .up input:nth-child(2) {
+  width: 40px;
+  text-align: center;
+  line-height: 20px;
+  height: 20px;
+  border: 1px solid gainsboro;
+  /* cursor: pointer; */
+}
+#content .car_goods ul li .up input:nth-child(3) {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 10px;
+  cursor: pointer;
+}
+#content .car_goods ul li .g_time {
+  width: 100px;
+  height: 100%;
+  position: absolute;
+  top: 25px;
+  left: 764px;
+}
+#content .car_goods ul li .g_time p:nth-child(1) {
+  width: 30px;
+  height: 20px;
+  padding: 2px;
+  background-color: #e02d2d;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#content .car_goods ul li .g_time p:nth-child(1) img {
+  width: 100%;
+  height: 100%;
+}
+#content .car_goods ul li .g_time p:nth-child(2) {
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  line-height: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#content .car_goods ul li .x_price {
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  top: 41px;
+  left: 790px;
+  color: red;
+}
+#content .car_goods ul li .x_price span {
+  margin-left: -5px;
+}
+
+#content .car_goods ul li .favorite {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 36px;
+  right: 182px;
+}
+#content .car_goods ul li .favorite a {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+#content .car_goods ul li .favorite a:hover {
+  color: #e02d2d;
+}
+#content .car_goods ul li .g_left {
+  width: 450px;
+  height: 100%;
+  float: left;
+  display: inline-block;
+  padding-top: 20px;
+}
+#content .car_goods ul li .g_left #g_img {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border: 1px solid white;
+}
+#content .car_goods ul li .g_left #g_img img {
+  width: 100%;
+  height: 100%;
+}
+#content .car_goods ul li .g_left h4 {
+  float: right;
+  width: 200px;
+  height: 100%;
+  margin-right: 150px;
+}
+#content .car_goods ul li .g_left h4 .g_title {
+  width: 350px;
+  font-size: 12px;
+  line-height: 16px;
+}
+#content .car_goods ul li .g_left h4 .g_title i {
+  display: inline-block;
+  width: 58px;
+  height: 20px;
+  background: url(../images/men-bg.png) no-repeat;
+  background-position: -324px -828px;
+  float: left;
+  margin-right: 5px;
+}
+#content .car_goods ul li .g_left h4 .g_title a:hover {
+  color: #e02d2d;
+}
+#content .car_goods ul li .g_left h4 span {
+  background: url("../img/pic1.png") no-repeat;
+}
+#content .total {
+  width: 100%;
+  position: relative;
+}
+#content .total h3:nth-child(1) {
+  width: 250px;
+  text-align: left;
+  height: 50px;
+  float: right;
+  font-size: 14px;
+  line-height: 30px;
+  padding: 10px 0px;
+}
+#content .total h3:nth-child(1) span {
+  font-size: 20px;
+  color: red;
+}
+#content .total h3:nth-child(2) {
+  display: block;
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid gainsboro;
+}
+#content .total h3:nth-child(2) .all_remove {
+  float: left;
+}
+#content .total h3:nth-child(2) p {
+  float: right;
+  height: 100%;
+}
+#content .total h3:nth-child(2) p span {
+  display: inline-block;
+  width: 70px;
+  height: 30px;
+  background-color: orange;
+  color: white;
+  text-align: center;
+  margin-right: 10px;
+}
+.total_money {
+  height: 100px;
+  padding: 0px 10px;
+  border: 1px solid #bdbdbd;
+  background: #f5f5f5;
+  line-height: 100px;
+}
+.total_money .tt_left {
+  width: 200px;
+  float: left;
+}
+.total_money .tt_left span {
+  margin-left: 10px;
+  font-size: 13px;
+}
+.total_money .tt_right ul {
+  height: 100%;
+}
+.total_money .tt_right ul li {
+  float: left;
+  height: 100%;
+  margin-left: 10px;
+}
+.total_money .tt_right ul li p {
+  height: 24px;
+  text-align: right;
+  font-size: 12px;
+}
+.total_money .tt_right ul li .sum_pri {
+  color: #ff3344;
+  font-size: 20px;
+  font-weight: bold;
+}
+.total_money .tt_right ul li .pro_num {
+  color: #ff7800;
+  margin-left: -2px;
+}
+.total_money .tt_right ul li .pay_fori {
+  background: #ff3344;
+  width: 120px;
+  height: 45px;
+  color: white;
+}
