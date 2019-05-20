@@ -165,21 +165,21 @@ $(function () {
             this.isok1 = !this.isok1;
             var num = 60;
             this.rannum();
-            // $.ajax({
-            //     type: 'get',
-            //     url: '../api/phonemess.php',
-            //     data: {
-            //         mobile: this.reginput.val(),
-            //         tpl_id: 156985,
-            //         tpl_value: '%23code%23%3D' + this.random_num,
-            //         key: 'eeed7cc6040dbde772969dce2b18cab8',
-            //         timecatch: new Date()
-            //     },
-            //     // 'mobile=' + this.reginput.val() + '&tpl_id=156985&tpl_value=%23code%23%3D' + this.random_num + '&key=eeed7cc6040dbde772969dce2b18cab8',
-            //     success: function (str) {
-            //         // console.log(str);
-            //     }.bind(this)
-            // });
+            $.ajax({
+                type: 'get',
+                url: '../api/phonemess.php',
+                data: {
+                    mobile: this.reginput.val(),
+                    tpl_id: 156985,
+                    tpl_value: '%23code%23%3D' + this.random_num,
+                    key: 'eeed7cc6040dbde772969dce2b18cab8',
+                    timecatch: new Date()
+                },
+                // 'mobile=' + this.reginput.val() + '&tpl_id=156985&tpl_value=%23code%23%3D' + this.random_num + '&key=eeed7cc6040dbde772969dce2b18cab8',
+                success: function (str) {
+                    // console.log(str);
+                }.bind(this)
+            });
 
             var timer = setInterval(function () {
                 num--;
@@ -226,7 +226,7 @@ $(function () {
                         // $('.ver_code').val("");
                         // 这里少个登录跳转
                         var makecookie = setCookie('userphonenum', $('#reg_val').val(), 1);
-                        location.href = "../index1.html";
+                        location.href = "../index.html";
 
                     }
 

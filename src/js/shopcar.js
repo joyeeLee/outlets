@@ -139,6 +139,7 @@ $(function () {
         });
     }
     ShopcarI.prototype.evremove = function () {//点击删除商品
+        var _this = this;
         $('.favorite').on('click', '.del_data', function () {//删除
             var goods_id = parseInt($(this).parents('ul').attr('data-id'));//根据整个商品那个框的data-id
             // console.log(goods_id);
