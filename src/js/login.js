@@ -37,7 +37,7 @@ $(function () {
 
                 if (str == 1) {
                     this.phonenum = setCookie('userphonenum', $('.userifo').val(), 1);//登录成功设置cookie
-                    location.href = "../index1.html";
+                    location.href = "../index.html";
                 }
                 else {
                     $('.errortip').css('display', 'block');
